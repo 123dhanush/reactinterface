@@ -90,7 +90,7 @@ class App extends Component {
   render() {
     let order;
     let filteredApts = this.state.myAppointments;
-    if (this.state.orderBy === 'asc') {
+    if (this.state.order === 'asc') {
       order = -1
     }
     else {
